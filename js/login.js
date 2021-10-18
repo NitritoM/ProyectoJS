@@ -24,8 +24,8 @@ function Comprobar() {
 			var configuracion_ventana = "target=viewer";
 			//Se supone que esta pagina se deberia abrir en el Iframe del index pero no se como se puede hacer eso
 
-			//window.open("../pages/profile.html");
-			//parent.document.getElementById(window.name);
+			window.open("../pages/main.html","_self");
+			parent.document.getElementById(window.name);
 			$("body").append(`<div><h3> ID: ${auxUsuario.codigo}</h3> <p>  Contraseña: ${auxUsuario.password}</p><b> Tipo ${auxUsuario.tipo}</b></div>`);
 		}
 	} else {
