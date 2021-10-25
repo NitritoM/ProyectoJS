@@ -23,8 +23,8 @@
 	</head>
 	<body class="bg--black">
 		<div class="container rounded bg-white mt-5 mb-5 bg--black">
-			<div class="row">
-				<div class="col-md-3 border-right">
+			<div class="row bg--black">
+				<div class="col-md-3 border-right bg--black">
 					<div class="d-flex flex-column align-items-center text-center p-3 py-5">
 						<img
 							class="rounded-circle mt-5"
@@ -40,36 +40,36 @@
 						</div>
 						<div class="row mt-2">
 							<div class="col-md-6">
-								<label class="labels">Nombres</label><input type="text" class="form-control" placeholder="Nombres" value="" />
+								<label class="labels">Nombres</label><input id="txtNombre" type="text" class="form-control" placeholder="Nombres" value="" />
 							</div>
 							<div class="col-md-6">
-								<label class="labels">Apellidos</label><input type="text" class="form-control" value="" placeholder="Apellidos" />
+								<label class="labels">Apellidos</label><input id="txtApellido" type="text" class="form-control" value="" placeholder="Apellidos" />
 							</div>
 						</div>
 						<div class="row mt-3">
 							<div class="col-md-12">
 								<label class="labels">DNI</label
-								><input type="text" class="form-control" placeholder="DNI" value="" />
+								><input id="txtDNI" type="text" class="form-control" placeholder="DNI" value="" />
 							</div>
 							<div class="col-md-12">
 								<label class="labels">Cursos inscrito</label><textarea class="form-control"  value="" ></textarea>
 							</div>
 							<div class="col-md-6">
-								<label class="labels">Matematica</label><input type="text" class="form-control" placeholder="MAtematica" value="" />
+								<label class="labels">Matematica</label><input id="txtMatematica" type="text" class="form-control" placeholder="MAtematica" value="" />
 							</div>
 							<div class="col-md-6">
-								<label class="labels">Historia</label><input type="text" class="form-control" placeholder="Historia" value="" />
+								<label class="labels">Historia</label><input id="txtHistoria" type="text" class="form-control" placeholder="Historia" value="" />
 							</div>
 						</div>
 						<div class="row mt-3">
 							<div class="col-md-6">
-								<label class="labels">Comunicacion</label><input type="text" class="form-control" placeholder="Comunicacion" value="" />
+								<label class="labels">Comunicacion</label><input id="txtComu" type="text" class="form-control" placeholder="Comunicacion" value="" />
 							</div>
 							<div class="col-md-6">
-								<label class="labels">Economia</label><input type="text" class="form-control" value="" placeholder="Economia" />
+								<label class="labels">Economia</label><input id="txtEcono" type="text" class="form-control" value="" placeholder="Economia" />
 							</div>
                             <div class="col-md-6">
-								<label class="labels">Programacion</label><input type="text" class="form-control" value="" placeholder="Programacion" />
+								<label class="labels">Programacion</label><input id="txtProgra" type="text" class="form-control" value="" placeholder="Programacion" />
 							</div>
 						</div>
 						<div class="mt-5 text-center"><button class="btn btn-primary profile-button" type="button">Continuar</button></div>
@@ -107,6 +107,6 @@
 			crossorigin="anonymous"
 		></script>
 		<script src="../js/classes.js"></script>
-		<script src="../js/login.js"></script>
+		<script src="../js/profile.js"></script>
 	</body>
 </html>
